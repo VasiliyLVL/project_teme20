@@ -1,5 +1,7 @@
 .section-order {
   background-color: #7a3145;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .order-header-div {
@@ -188,6 +190,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .order-header-div {
     gap: 25px;
     margin-bottom: 50px;
