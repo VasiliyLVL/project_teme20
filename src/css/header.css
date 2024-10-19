@@ -1,4 +1,10 @@
 .header {
+    width: 100%;
+    z-index: 999;
+    margin: 0 auto;
+    max-width: 100%;
+    top: 20px;
+    position: absolute;
 background-color: transparent;
 
 }
@@ -9,9 +15,7 @@ align-items: center;
 justify-content: center;
 flex-direction: row;
 justify-content: space-between;
-margin-top: 20px;
-margin-left: 20px;
-margin-right: 20px;
+
 }
 
 .icon-logo {
@@ -31,10 +35,9 @@ flex-direction: row;
 }
 
 @media  screen and (min-width: 768px) {
-    .header-container {
-        margin-top: 32px;
-        margin-left:32px;
-        margin-right: 32px;
+
+    .header {
+        top:32px;
     }
 
     .icon-logo {
@@ -49,16 +52,6 @@ flex-direction: row;
 }
 
 @media screen and (min-width:1280px) {
-    .header-container {
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    .icon-logo {
-       
-    }
 
     .menu-and-btn {
         display: flex;
