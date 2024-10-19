@@ -1,0 +1,128 @@
+.header {
+background-color: transparent;
+
+}
+
+.header-container {
+     display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.icon-logo {
+    display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+}
+
+.menu-and-btn {
+    display: none;
+}
+
+.menu-btn {
+   border: none;
+   background-color: transparent;
+}
+
+@media  screen and (min-width: 768px) {
+    .header-container {
+        margin-top: 32px;
+        margin-left:32px;
+        margin-right: 32px;
+    }
+
+    .icon-logo {
+        height: 18px;
+        width: 194px;
+    }
+
+    .menu-btn {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .header-container {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .icon-logo {
+       
+    }
+
+    .menu-and-btn {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    }
+    
+    .nav-list {
+        display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    }
+
+    .nav-item {
+        background-color: transparent;
+    }
+    
+    .nav-link {
+        border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    background-color: transparent;
+    }
+    
+    .shop-now {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 30px;
+    padding: 16px 32px;
+    height: 52px;
+    background: #7a3145;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.11111;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    border: none;
+    }
+    
+    .shop-now:hover {
+        background: #622133;
+    }
+    
+    .shop-now:focus {
+        background: #fbfbfb;
+        color: #7a3145;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+}
+
