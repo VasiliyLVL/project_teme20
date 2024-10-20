@@ -123,6 +123,10 @@
     background-color: #7a3145;
     width: 100%;
   }
+  .section-how-it-works-right {
+    padding: 100px 159px;
+  }
+
   .section-how-it-works-title {
     width: 450px;
     margin-right: auto;
