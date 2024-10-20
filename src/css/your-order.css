@@ -1,0 +1,264 @@
+.section-order {
+  background-color: #7a3145;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.order-header-div {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  margin-bottom: 40px;
+}
+
+.order-h {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.order-h-span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
+.order-p {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.29;
+  color: #fbfbfb;
+}
+
+.order-card-div {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-card {
+  min-width: 335px;
+}
+
+.order-form-div {
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.form-p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+.form-span-prp {
+  color: #7a3145;
+}
+
+.form-span-grn {
+  color: #576f35;
+}
+
+.form-input {
+  margin-bottom: 15px;
+  width: 100%;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  padding: 14px 16px 14px 16px;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
+
+.form-input::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+  opacity: 100%;
+}
+
+.form-input:focus {
+  border-color: #7a3145;
+}
+
+.form-input:not(:placeholder-shown):invalid {
+  border-color: #e74a3b;
+}
+
+.form-input:not(:placeholder-shown):valid {
+  border-color: #3cbc81;
+}
+
+.form-comment {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+  width: 100%;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 15px;
+  padding: 14px 16px 14px 16px;
+  outline: none;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.form-comment::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #141414;
+  opacity: 100%;
+}
+
+.form-comment:focus {
+  border-color: #7a3145;
+}
+
+.send-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #576f35;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  cursor: pointer;
+}
+
+.send-button:hover,
+.send-button:focus {
+  background-color: #7a3145;
+}
+
+.order-sm {
+  background-color: #576f35;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.order-sm img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.order-sm-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 14px;
+}
+
+.order-sm-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08333;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+  .section-order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .order-header-div {
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+
+  .order-h {
+    font-size: 64px;
+    line-height: 1;
+  }
+
+  .order-p {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .order-card-div {
+    row-gap: 25px;
+  }
+
+  .order-card {
+    width: 628px;
+  }
+
+  .order-form-div {
+    padding: 50px 100px;
+  }
+
+  .order-sm {
+    padding: 50px;
+    gap: 50px;
+  }
+
+  .order-sm-p {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+    margin-bottom: 15px;
+  }
+
+  .order-sm-list {
+    gap: 12px;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .order-header-div {
+    max-width: 751px;
+  }
+
+  .order-card-div {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 24px;
+  }
+
+  .order-card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .order-form-div {
+    padding: 50px;
+  }
+}
