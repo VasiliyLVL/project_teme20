@@ -100,10 +100,11 @@
   align-items: center;
   flex-direction: row;
   counter-increment: number;
+  margin-bottom: 20px;
 }
 
-.how-it-works-item:not(last-child) {
-  margin-bottom: 20px;
+.how-it-works-item:last-child {
+  margin-bottom: 0px;
 }
 
 .how-it-works-strong-word {
