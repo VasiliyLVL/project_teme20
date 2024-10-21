@@ -73,7 +73,7 @@
 }
 
 .review-person {
-    padding-top: 24px;
+    margin-top: 24px;
 }
 
 .reviews-list li:nth-child(2) {
@@ -117,7 +117,6 @@
 
     .reviews-paragraph {
         font-size: 16px;
-        margin-bottom: 25px;
         line-height: 1.25;
     }
 
