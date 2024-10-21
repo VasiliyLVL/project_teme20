@@ -258,7 +258,7 @@
   .order-card-div {
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: stretch;
     column-gap: 24px;
   }
 
