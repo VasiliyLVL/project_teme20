@@ -16,7 +16,7 @@
   padding: 40px 20px;
   background-color: #7a3145;
   max-width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .section-how-it-works-jpg {
   border-radius: 30px;
@@ -97,7 +97,7 @@
 
 .how-it-works-item {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: row;
   counter-increment: number;
   margin-bottom: 20px;
@@ -152,19 +152,22 @@
 }
 @media screen and (min-width: 1280px) {
   .section-how-it-works {
+    min-width: 1280px;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0;
   }
 
   .section-how-it-works-left {
+    /* height: 759px; */
     max-width: 630px;
     padding: 100px;
   }
 
   .section-how-it-works-right {
-    height: 759px;
+    /* height: 759px; */
     max-width: 650px;
     padding: 100px;
+    padding: 100px 100px 160px;
   }
 }
