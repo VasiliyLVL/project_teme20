@@ -154,7 +154,7 @@
     }
 
     .reviews-list {
-        row-gap: 25px;
+        column-gap: 25px;
     }
 
     .review-section {
