@@ -1,7 +1,7 @@
 .review-section {
     background-color: #fbfbfb;
     min-width: 320px;
-    max-width: 100%;
+    max-width: 375px;
     margin: 0 auto;
 }
 
@@ -101,9 +101,9 @@
         line-height: 1.25;
     }
 
-    /* .review-section {
+    .review-section {
         max-width: 768px;
-    } */
+    }
 
     .reviews-list {
         display: flex;
@@ -153,8 +153,12 @@
         display: flex;
     }
 
-    /* .review-section {
+    .reviews-list {
+        row-gap: 25px;
+    }
+
+    .review-section {
         max-width: 1280px;
-    } */
+    }
 
 }
