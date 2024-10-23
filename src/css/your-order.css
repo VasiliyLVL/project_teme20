@@ -151,6 +151,8 @@
   text-transform: uppercase;
   color: #fbfbfb;
   cursor: pointer;
+  border: none;
+  
 }
 
 .send-button:hover,
