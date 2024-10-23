@@ -1,6 +1,10 @@
+html {
+  /*   Додати щоб скролл був повільний */
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: "Inter Tight", sans-serif;
+  font-family: 'Inter Tight', sans-serif;
 }
 
 .section {
