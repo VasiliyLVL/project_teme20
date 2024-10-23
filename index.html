@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/project_teme20/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project_teme20/assets/index-DN5b4da7.css">
+    <link rel="stylesheet" crossorigin href="/project_teme20/assets/index-CJkxSa_t.css">
   </head>
   <body>
     <header class="header">
@@ -32,20 +32,25 @@
       <nav class="header-nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link" href="/how-it-works.html">How It Works</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/vegetables.html">Vegetables</a>
+            <a class="nav-link" href="#vegetables">Vegetables</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/reviews.html">Reviews</a>
+            <a class="nav-link" href="#reviews">Reviews</a>
           </li>
         </ul>
       </nav>
       <button class="shop-now" type="button">Shop Now</button>
     </div>
 
-    <button class="menu-btn" type="button">
+    <button
+      class="menu-btn js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      type="button"
+    >
       <svg class="icon-menu" width="32" height="32">
         <use href="/project_teme20/assets/sprite-CKHugOb_.svg#icon-menu"></use>
       </svg>
@@ -53,9 +58,9 @@
   </div>
 </header>
 
-    <div class="mobile-menu" data-menu>
+    <div class="mobile-menu js-menu-container" id="mobile-menu" data-menu>
   <div class="mobile-menu-container">
-    <button type="button" class="mobile-menu-close">
+    <button type="button" class="mobile-menu-close js-close-menu">
       <svg class="menu-close-icon" width="32" height="32">
         <use href="/project_teme20/assets/sprite-CKHugOb_.svg#icon-close"></use>
       </svg>
@@ -63,15 +68,15 @@
     <nav class="mobile-menu-navigation">
       <ul class="button-list">
         <li class="mobile-menu-list-item">
-          <button type="button" class="mobile-menu-list-btn">
+        <a href="#how-it-works" class="mobile-menu-list-btn">
             How It Works
-          </button>
+          </a>
         </li>
         <li class="mobile-menu-list-item">
-          <button type="button" class="mobile-menu-list-btn">Vegetables</button>
+          <a href="#vegetables" class="mobile-menu-list-btn">Vegetables</a>
         </li>
         <li class="mobile-menu-list-item">
-          <button type="button" class="mobile-menu-list-btn">Reviews</button>
+          <a href="#reviews" class="mobile-menu-list-btn">Reviews</a>
         </li>
       </ul>
     </nav>
@@ -93,11 +98,11 @@
         <div class="hero-img"> </div>
     </div>
 </section>
-      <section class="section-how-it-works">
+      <section class="section-how-it-works" id="how-it-works">
   <h2 class="visually-hidden">How it works</h2>
 
   <ul class="section-how-it-works-list">
-    <li class="section-how-it-works-item section-how-it-works-left container">
+    <li class="section-how-it-works-item section-how-it-works-left">
       <picture>
         <source
           srcset="/project_teme20/assets/img-works-desk-3xFiooff.jpg 1x, /project_teme20/assets/img-works-desk@2x-fz4PW9pQ.jpg 2x"
@@ -113,7 +118,7 @@
         />
         <img
           class="section-how-it-works-jpg"
-          src="/project_teme20/assets/img-hero-desk-w6Jk8LOa.jpg"
+          src="/project_teme20/assets/img-works-desk-3xFiooff.jpg"
           alt="image cashless payment "
         />
       </picture>
@@ -173,7 +178,7 @@
         </p>
     </div> 
 </section>
-      <section>
+      <section id="vegetables">
   <div class="products-section container">
     <h2 class="products-subtitle">
       organic<span class="products-subtitle-part"><br />vegetables</span>
@@ -254,7 +259,7 @@
   </div>
 </section>
 
-      <section class="section review-section">
+      <section class="section review-section" id="reviews">
     <div class="container">
         <div class="reviews-header-div">
             <h2 class="reviews-header">reviews from our <span class="customers">customers</span></h2>
@@ -479,6 +484,11 @@
   </div>
 </footer>
 
-
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
